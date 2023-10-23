@@ -1,0 +1,49 @@
+.tweet {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+  
+    .tweet-header {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+  
+    .tweet-content {
+      font-size: 16px;
+    }
+  
+    .tweet-actions {
+      margin-top: 10px;
+      button {
+        background-color: #1da1f2;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+  
+        &:hover {
+          background-color: #0e71c7;
+        }
+      }
+    }
+  
+    .comments {
+      margin-top: 10px;
+      h3 {
+        font-size: 16px;
+      }
+  
+      ul {
+        list-style-type: none;
+        padding: 0;
+        li {
+          margin: 5px 0;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  
